@@ -1,0 +1,93 @@
+$primary:#546FFD;
+$primary-light: #778CFD;
+$primary-super-light: #BEC8FE;
+$primary-invert: #DCE1FE;
+$primary-dark: #3051FD;
+
+
+$secondary:#FB6376;
+$secondary-light: #FC8896;
+$secondary-super-light: #FDB4BD;
+$secondary-invert: #FED2D8;
+$secondary-dark: #FA475D;
+
+$info-accent: #619EFA;
+$info-medium: #69c0ff;
+$info-light: #CEE1FD;
+
+
+$warning-accent: #FFC043;
+$warning-medium: #FFD685;
+$warning-light: #FFE7B8;
+
+$error-accent: #D94945;
+$error-medium: #EEB9B9;
+$error-light: #F9E3E3;
+
+$success-accent: #7CB342;
+$success-medium: #B7EB8F;
+$success-light: #F6FFED;
+
+$pure-black:#000000;
+
+$gray-dark:#535569;
+$gray-regular:#82849C;
+$gray-medium:#D1D2DB;
+$gray-light:#F1F1F4;
+
+
+
+
+$text-dark:#24252E;
+$text-white: #ffffff;
+
+// $gray-medium: #818999;
+// $gray-light: #e7e7ed;
+
+ $surface-color: #F9F9FA;
+
+:export {
+ $primary:primary;
+$primary-light: primary-light;
+$primary-super-light:primary-super-light;
+$primary-invert: primary-invert;
+$primary-dark: primary-dark;
+
+
+$secondary:secondary;
+$secondary-light:secondary-light;
+$secondary-super-light:secondary-super-light;
+$secondary-invert:secondary-invert;
+$secondary-dark:secondary-dark;
+
+$info-accent:info-accent;
+$info-medium:info-medium;
+$info-light:info-light;
+
+
+$warning-accent:warning-accent;
+$warning-medium:warning-medium;
+$warning-light:warning-light;
+
+$error-accent:error-accent;
+$error-medium:error-medium;
+$error-light:error-light;
+
+$success-accent: success-accent;
+$success-medium:success-medium;
+$success-light:success-light;
+
+$pure-black:pure-black;
+
+$gray-dark:gray-dark;
+$gray-regular:gray-regular;
+$gray-medium:gray-medium;
+$gray-light:gray-light;
+
+$gray-white:gray-white;
+$gray-white-light:gray-white-light;
+
+$text-dark:text-dark;
+$text-white:text-white;
+
+}

@@ -1,0 +1,135 @@
+@import './variables.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&family=IBM+Plex+Sans:wght@300;400;700&display=swap');
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  font-family: 'IBM Plex Sans', sans-serif;;
+  font-size: 1rem;
+
+  line-height: 1.5rem;
+  color: $text-dark;
+  background-color: $surface-color;
+}
+h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 3.5rem;
+  color: $text-dark;
+  line-height: 4rem;
+  font-weight: normal;
+  margin: 10px;
+
+  &.white {
+    color: $text-white;
+  }
+  &.bold{
+    font-weight: bold;
+  }
+}
+h2 {
+  color: $text-dark;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 3rem;
+  line-height: 3.25rem;
+  font-weight: normal;
+  margin: 10px;
+
+  &.white {
+    color: $text-white;
+  }
+  &.bold{
+    font-weight: bold;
+  }
+}
+h3 {
+  color: $text-dark;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  font-weight: normal;
+  margin: 10px;
+
+  &.white {
+    color: $text-white;
+  }
+  &.bold{
+    font-weight: bold;
+  }
+  
+}
+h4 {
+  color: $text-dark;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.875rem;
+  line-height: 1.62rem;
+  font-weight: normal;
+  margin: 10px;
+  &.white {
+    color: $text-white;
+  }
+  &.bold{
+    font-weight: bold;
+  }
+}
+
+h5 {
+  color: $text-dark;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.5rem;
+  line-height: 1.62rem;
+  font-weight: normal;
+  margin: 10px;
+  &.white {
+    color: $text-white;
+  }
+  &.bold{
+    font-weight: bold;
+  }
+}
+h6 {
+  color: $text-dark;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.25rem;
+  line-height: 1.62rem;
+  font-weight: normal;
+  margin: 10px;
+  &.white {
+    color: $text-white;
+  }
+  &.bold{
+    font-weight: bold;
+  }
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-light {
+  font-weight: lighter;
+}
+
+p,
+span {
+  // color: $text-dark;
+  font-family: 'IBM Plex Sans', sans-serif;;
+  font-weight: normal;
+  max-width: 28.4rem;
+
+  &.white {
+    color: $text-white;
+  }
+  &.light {
+    font-family: 'Montserrat-Light';
+  }
+  &.bold{
+    font-weight: bold;
+  }
+}
