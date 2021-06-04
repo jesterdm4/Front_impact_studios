@@ -1,0 +1,93 @@
+@import '../../Theme/variables.scss';
+
+@mixin button($bg-color: $primary-light, $color: #fff,$border:4px solid $primary, $shadow:5px 10px 0px 0px $pure-black) {
+  position: relative;
+  min-width: 141px;
+  height: 70px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 10px;
+  padding: 10px 20px;
+  border: $border;
+  outline: 0;
+  background-color: $bg-color;
+  color: $color;
+  cursor:url('../../Assets/cursor-hand.svg'), auto;
+
+  p{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+  }
+
+  &.full {
+    width: 100%;
+  }
+
+ 
+
+  // @media (min-width: 992px) {
+  //   min-width: 84px;
+  //   height: 56px;
+  // }
+  box-shadow: $shadow;
+}
+
+.btn-primary {
+  @include button();
+
+  &:hover {
+    @include button($primary-invert,$primary,4px solid $primary,5px 10px 0px 0px $primary);
+  }
+  &:active {
+    @include button($primary-invert,$primary,$primary-invert,5px 10px 0px 0px transparent);
+    &::before{
+      content: '';
+      width:90%;
+      height:85%;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      border-top: 2px solid #C4CDFE;
+      border-left: 2px solid #C4CDFE
+    }
+  }
+
+  &:disabled{
+    @include button($gray-medium,$pure-white,$gray-light,none);
+  }
+}
+
+.btn-primary-ghost {
+  @include button($pure-white,$primary,none,5px 5px 0px 0px #EEEEEF);
+
+  &:hover {
+    @include button($pure-white,$primary-light,none,5px 5px 0px 0px #EEEEEF);
+  }
+  &:active {
+    @include button($pure-white,$primary-super-light,none,5px 5px 0px 0px #EEEEEF);
+  }
+}
+
+.btn-secondary {
+  @include button($secondary,$pure-white, 4px solid $pure-black, $pure-black);
+}
+
+.btn-tertiary {
+  @include button($surface-color, $gray-medium);
+
+}
+.btn-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  i {
+    display: flex;
+    margin-right: 6px;
+  }
+}
