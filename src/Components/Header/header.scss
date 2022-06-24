@@ -1,0 +1,12 @@
+@import '../../Theme/variables.scss';
+
+.main_header{
+
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 90px;
+
+}
