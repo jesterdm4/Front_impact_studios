@@ -1,0 +1,133 @@
+.frame2-container{
+    height: 106.00000144081355px;
+    width: 672.0000091342142px;
+    left: 97px;
+    top: 209.4525146484375px;
+    border-radius: 0px;
+    padding: 24px, 36px, 24px, 36px;
+
+    border: 2px solid #FFFFFF;
+    box-shadow: 8px 8px 0px 0px #FFFFFF;
+
+                                                        /* Frame 2160 */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 36px;
+    gap: 0px;
+
+    position: absolute;
+    width: 672px;
+    height: 106px;
+    left: 97px;
+    top: 209.45px;
+
+    /* primary */
+
+    background: #546FFD;
+    /* pure-white */
+
+    border: 2px solid #FFFFFF;
+    box-shadow: 8px 8px 0px #FFFFFF;
+    transform: rotate(-2deg);
+}
+
+.text1-frame2{
+    height: 58.000000788369675px;
+    width: 385.00000523314355px;
+    left: 36.8154296875px;
+    top: 46.18145751953125px;
+    border-radius: nullpx;
+                                                    //no entiendo esto
+                                                    //styleName: .text-font-pattern-(BG)/.text-font-pattern-XS;
+    font-family: VT323;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    /* experiencias de */
+
+
+    width: 385px;
+    height: 58px;
+                                                    //esto tampoco
+                                                    /* .text-font-pattern-(BG)/.text-font-pattern-XS */
+
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 90%;
+                                                    /* identical to box height, or 58px */
+
+
+    /* pure-white */
+
+    color: #FFFFFF;
+
+    transform: rotate(-2deg);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text2-frame2{
+    height: 58.000000788369675px;
+    width: 205.00000278647903px;
+    left: 431.5751953125px;
+    top: 32.396148681640625px;
+    border-radius: nullpx;
+
+                                                                        //styleName: .text-font-pattern-(BG)/.text-font-pattern-XS;
+    font-family: VT323;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    /* _impacto */
+
+
+    width: 205px;
+    height: 58px;
+
+                                                                        /* .text-font-pattern-(BG)/.text-font-pattern-XS */
+
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 60%;
+                                                                        /* identical to box height, or 58px */
+
+
+    /* pure-white */
+
+    color: #FFFFFF;
+
+    transform: rotate(-2deg);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.total-frame2-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
