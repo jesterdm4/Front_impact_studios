@@ -6,11 +6,22 @@
   min-height: 100vh;
 
   .first-container {
-    padding-left: 80px;
     padding-right: 80px;
     padding-top: 80px;
 
     .first-div {
+
+      height: 38px;
+      width: 121px;
+      left: 96px;
+      top: 157px;
+      border-radius: 0px;
+      padding: 4px 12px;
+      background: #546FFD;
+      text-align: center;
+      color: white;
+     
+
       p {
         font-family: "VT323", monospace;
         font-style: normal;
@@ -24,55 +35,29 @@
   .frame2-container {
     border: 2px solid #ffffff;
     box-shadow: 8px 8px 0px 0px #ffffff;
-
     display: flex;
     flex-direction: row;
     padding: 24px 36px;
-
     height: 106px;
     max-width: 800px;
     left: 97px;
     top: 209.45px;
-
-    /* primary */
-
     background: #546ffd;
-    /* pure-white */
-
-    border: 2px solid #ffffff;
-    box-shadow: 8px 8px 0px #ffffff;
     transform: rotate(-2deg);
   }
 }
 
 .text-frame2 {
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 58px;
-  letter-spacing: 0em;
-  text-align: left;
-
-  /* _impacto */
-
-  height: 58px;
-
-  /* .text-font-pattern-(BG)/.text-font-pattern-XS */
-
   font-family: "VT323";
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
   line-height: 60%;
-  /* identical to box height, or 58px */
-
-  /* pure-white */
-
+  letter-spacing: 0em;
+  text-align: left;
+  height: 58px;
   color: #ffffff;
-
   transform: rotate(-2deg);
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;

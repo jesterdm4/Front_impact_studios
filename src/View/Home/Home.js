@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.scss";
+import { Frame2, Header } from "../../Components";
 
-import { Frame2, Header, Text } from "../../Components";
 
 const Home = (props) => {
   return (
@@ -10,7 +10,9 @@ const Home = (props) => {
         <Header />
 
         <Frame2 />
+
       </div>
+      
     </>
   );
 };

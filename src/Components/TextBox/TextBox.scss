@@ -1,0 +1,27 @@
+.TextBox{ 
+    border: 2px solid #ffffff;
+    box-shadow: 8px 8px 0px #ffffff;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 36px;
+    height: 106px;
+    max-width: 800px;
+    width: fit-content;
+    background: #546ffd;
+    transform: rotate(-2deg);
+    p {
+        font-family: "VT323";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 60%;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;
+        transform: rotate(-2deg);
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+    
+}
