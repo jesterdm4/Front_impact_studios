@@ -10,6 +10,15 @@ const TextBox = (props) => {
         <>
             <p>{props.text2}</p>
         </>
+        <>
+            <p>{props.text3}</p>
+        </>
+        <>
+            <p>{props.text4}</p>
+        </>
+        <>
+            <p>{props.text5}</p>
+        </>
       </div>
     );
   };
