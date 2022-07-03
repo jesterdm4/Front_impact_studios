@@ -1,0 +1,37 @@
+.elipse{
+
+    box-sizing: border-box;
+
+    position: relative;
+    width: 33.97px;
+    height: 34.51px;
+    left: 572.51px;
+    top: 562.95px;
+
+    background: #FFFFFF;
+   
+    border: 5px solid #18A0FB;
+    border-radius: 100%;
+
+}
+
+.arrow{
+
+    position: relative;
+    width: 190.97px;
+    height: 48.53px;
+    left: 601.37px;
+    top: 576.9px;
+
+    border: 5px solid #189FFB;
+    transform: matrix(0.05, 1, -1, 0.05, 0, 0);
+
+}
+
+.fullArrow{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}

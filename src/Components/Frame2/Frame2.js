@@ -2,6 +2,7 @@ import TextBox from "../TextBox/TextBox";
 import "./Frame2.scss";
 import TextFrame from "../TextFrame/TextFrame";
 import BlueBox from "../BlueBox/BlueBox";
+import Vector1 from "../Vector1/Vector1";
 
 const Frame2 = () => {
   return (
@@ -21,6 +22,8 @@ const Frame2 = () => {
         <TextFrame />
 
         <BlueBox />
+
+        <Vector1 />
 
       </div>
 
