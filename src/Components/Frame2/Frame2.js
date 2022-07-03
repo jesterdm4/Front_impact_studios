@@ -1,6 +1,7 @@
 import TextBox from "../TextBox/TextBox";
 import "./Frame2.scss";
 import TextFrame from "../TextFrame/TextFrame";
+import BlueBox from "../BlueBox/BlueBox";
 
 const Frame2 = () => {
   return (
@@ -19,9 +20,10 @@ const Frame2 = () => {
 
         <TextFrame />
 
+        <BlueBox />
+
       </div>
 
-      
     </>
   );
 };
