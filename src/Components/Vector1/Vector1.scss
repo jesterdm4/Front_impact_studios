@@ -18,20 +18,22 @@
 .arrow{
 
     position: relative;
-    width: 190.97px;
-    height: 48.53px;
+    width: 500px;
+    height: 1px;
     left: 601.37px;
     top: 576.9px;
 
-    border: 5px solid #189FFB;
-    transform: matrix(0.05, 1, -1, 0.05, 0, 0);
+    border: 6px solid #189FFB;
+    
+    
+    transform: scale(0.4) rotate(90deg);
 
+    
 }
 
 .fullArrow{
     position: relative;
     display: flex;
-    align-items: center;
-    justify-items: center;
-    flex-direction: column;
+    gap: 0px;
+    width: 50%;
 }
