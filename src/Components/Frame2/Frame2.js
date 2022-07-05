@@ -3,6 +3,7 @@ import "./Frame2.scss";
 import TextFrame from "../TextFrame/TextFrame";
 import BlueBox from "../BlueBox/BlueBox";
 import Vector1 from "../Vector1/Vector1";
+import BlueBlob1 from "../BlueBlob1/BlueBlob1";
 
 const Frame2 = () => {
   return (
@@ -24,6 +25,8 @@ const Frame2 = () => {
         <BlueBox />
 
         <Vector1 />
+
+        <BlueBlob1 />
 
       </div>
 

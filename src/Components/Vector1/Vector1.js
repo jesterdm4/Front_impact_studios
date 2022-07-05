@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Vector1.scss";
 
-
+/*flecha pendiente. . .*/
 const Vector1 = () => {
     return (
       <>
