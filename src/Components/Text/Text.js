@@ -20,7 +20,7 @@ const Text = ({ category, children, ...rest }) => {
     return <h6 {...rest}>{children}</h6>;
   }
 
-  return <p {...rest}>{children}</p>;
+  {/* return <p {...rest}>{children}</p>; */}
 };
 
 export default Text;

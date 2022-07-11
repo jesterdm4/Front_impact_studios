@@ -6,7 +6,7 @@ const TextFrame = () => {
     return (
       <>
         <h1 className='TextFrame'>
-            basadas en tecnología
+          basadas en tecnología
         </h1>
       </>
     );

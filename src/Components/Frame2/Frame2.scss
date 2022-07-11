@@ -1,36 +1,48 @@
 .total-frame2-container {
   position: relative;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 0 100px;
-  min-height: 100vh;
+  padding: 1rem;
+  height: fit-content;
 
-  .first-container {
-    padding-right: 80px;
-    padding-top: 80px;
-
-    .first-div {
-
-      height: 38px;
-      width: 121px;
-      left: 96px;
-      top: 157px;
-      border-radius: 0px;
-      padding: 4px 12px;
+    .first-container {
+      height: max-content;
+      width:max-content;
+      padding: .5vw 1vw;
       background: #546FFD;
       text-align: center;
       color: white;
-     
-
+    
       p {
         font-family: "VT323", monospace;
         font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 150%;
+        font-size: calc(.5rem + 1.5vw);
       }
     }
+
+    .ArrowComponent{
+      position: relative;    
+      width: 75vw;
+      height: fit-content;
+      top: 3rem;
+  }
+
+  .TextFrameComponent{
+    position: relative;
+    top: .7rem;
+  }
+
+  .BlueBoxComponent{
+    position: relative;
+    top: -1.5rem;
+  }
+
+  .ArrowComponent{
+    position: relative;
+    top: 1.4rem;
+    left: 1.87rem;
   }
 
 }

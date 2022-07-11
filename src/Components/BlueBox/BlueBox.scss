@@ -1,108 +1,85 @@
-.BlueBox1{
-    
-    position: relative;
-
-    box-sizing: border-box;
-    
+.BlueBox1{   
+    position: relative;    
     box-sizing: content-box;
-    
-    width: 1200px;
-    height: 10vh;
+    width: 75vw;
+    height:max-content;
     top: 60px;    
     background: black;
     color: white;
-    
-    border: 4px solid #18A0FB;
+    border: 5px solid #18A0FB;
+    display: flex;
+    flex-flow: column;
  
     .TextoBlanco{
-
         position: relative;
+        left: 3.5vw;
         width: 90%;
-        height: 60%;
-        border-radius: nullpx;
-        left: 5vh;
-        top: -2.5vh;
-
+        height: 50%;
         font-family: IBM Plex Mono;
-        font-size: 30px;
-        font-weight: 400;
-        line-height: 30px;
-        letter-spacing: 0em;
+        font-size: calc(.7rem + .9vw);
         text-align: justify;
-
     }
 
 }
 
-.BlueBox2{
-
+.BlueBox2y3{
     position: relative;
+    left: -0.85rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -13px;
 
-    height: 24px;
-    width: 24px;
-    left: -1vh;
-    top: -1vh;
-    border-radius: 0px;
+    .BlueBox2{
+        position: inherit;
+        height: 24px;
+        width: 24px;
+        background: white;
+        border: 4px solid #18A0FB;
+        color: black;
+    }
 
-    background: white;
+    .BlueBox3{
+        position: inherit;
+        left: 1.8rem;
+        height: 24px;
+        width: 24px;
+        background: white;
+        border: 4px solid #18A0FB;
+        color: black;
 
-    border: 4px solid #18A0FB;
-
-    color: black;    
-
-}
-
-.BlueBox3{
-
-    position: relative;
-
-    height: 24px;
-    width: 24px;
-    left: 1188px;
-    top: -2.69vh;
+    }
     
-    border-radius: 0px;
-
-    background: white;
-
-    border: 4px solid #18A0FB;
-
-    color: black;
-
 }
 
-.BlueBox4{
-
+.BlueBox4y5{
     position: relative;
+    left: -0.85rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:-15px;
 
-    height: 24px;
-    width: 24px;
-    left: -1vh;
-    top: -0.8vh;
-    border-radius: 0px;
-
-    background: white;
-
-    border: 4px solid #18A0FB;
-
-    color: black;
-
-}
-
-.BlueBox5{
-
-    position: relative;
+    .BlueBox4{
+        position: inherit;
+        height: 24px;
+        width: 24px;
+        background: white;
+        border: 4px solid #18A0FB;
+        color: black;
+    }
     
-    height: 24px;
-    width: 24px;
-    left: 1188px;;
-    top: -2.4vh;
-    border-radius: 0px;
+    .ArrowComponent{
+        position: absolute;
+        left: 36.5vw;
+    }
 
-    background: white;
-
-    border: 4px solid #18A0FB;
-
-    color: black;
+    .BlueBox5{
+        position: inherit;
+        left: 1.8rem;
+        height: 24px;
+        width: 24px;
+        background: white;
+        border: 4px solid #18A0FB;
+        color: black;
+    }
 
 }

@@ -1,13 +1,20 @@
 import React from 'react'
 import "./Vector1.scss";
+import VectorSvg from '../../Assets/VectorSvg.svg';
 
-/*flecha pendiente. . .*/
+
 const Vector1 = () => {
     return (
       <>
         <div className='fullArrow'>
-            <div className='elipse'></div>
-            <div className='arrow'></div>
+            
+            <div className='arrow'>
+                <div className='elipse'></div>
+                <img className='VectorSvg' 
+                    src={VectorSvg} 
+                    alt='VectorSvg' 
+                />
+            </div>
         </div>
       </>
     );

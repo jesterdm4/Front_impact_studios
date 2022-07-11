@@ -1,41 +1,22 @@
-/*flecha pendiente. . .*/
-
 .elipse{
-
-    box-sizing: border-box;
-
-    position: relative;
-    width: 33.97px;
-    height: 34.51px;
-    left: 572.51px;
-    top: 562.95px;
-
-    background: #FFFFFF;
-   
-    border: 5px solid #18A0FB;
+    position: inherit;
+    height: 24px;
+    width: 24px;
+    background: white;
+    border: 4px solid #18A0FB;
+    color: black;
     border-radius: 100%;
-
 }
 
-.arrow{
-
+.VectorSvg{
     position: relative;
-    width: 500px;
-    height: 1px;
-    left: 601.37px;
-    top: 576.9px;
-
-    border: 6px solid #189FFB;
-    
-    
-    transform: scale(0.4) rotate(90deg);
-
-    
+    left: 9px;
+    top: -1px;
 }
 
 .fullArrow{
-    position: relative;
+    position: inherit;
     display: flex;
-    gap: 0px;
-    width: 50%;
+    align-items: center;
+    justify-content: center;
 }

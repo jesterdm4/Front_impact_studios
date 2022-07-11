@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import {Home} from './View';
 import reportWebVitals from './reportWebVitals';
-
 import './Theme/reset.scss'
 import './Theme/global.scss'
 

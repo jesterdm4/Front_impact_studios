@@ -9,24 +9,32 @@ const Frame2 = () => {
   return (
     <>
       <div className="total-frame2-container">
+      
         <div className="first-container">
-          <div className="first-div">
-            <p>Construimos</p>
-          </div>
+          <p> Construimos </p>
         </div>
 
-        <TextBox 
+        <div className="TextBoxComponent">
+          <TextBox 
           text="experiencias de"
           text2="_impacto"
-        />
+        /></div>
 
-        <TextFrame />
+        <div className="TextFrameComponent">
+          <TextFrame />
+        </div>
 
-        <BlueBox />
+        <div className="BlueBoxComponent">
+          <BlueBox />
+        </div>
 
-        <Vector1 />
+        <div className="ArrowComponent">
+          <Vector1 />
+        </div>
 
         <BlueBlob1 />
+        
+        {/*esta pendiente todo lo relacionado con las manchas, ese componente Blueblob1 deberia contener al menos una pero esta vacio por ahora*/}
 
       </div>
 
