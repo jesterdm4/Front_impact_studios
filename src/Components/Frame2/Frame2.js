@@ -14,10 +14,18 @@ const Frame2 = () => {
           <p> Construimos </p>
         </div>
 
+        {/*
+          aplique esto en el componente TexBox porque si lo haces junto se descuadra todo, se encajona quien sabe porque
+          y no pasa de los primeros centimetros del div en donde esta metido sin importar su tamaño
+        */}
+
         <div className="TextBoxComponent">
           <TextBox 
-          text="experiencias de"
-          text2="_impacto"
+          text="experi"
+          text2="encia"
+          text3="s d"
+          text4="e_imp"
+          text5="acto"
         /></div>
 
         <div className="TextFrameComponent">
@@ -32,9 +40,12 @@ const Frame2 = () => {
           <Vector1 />
         </div>
 
-        <BlueBlob1 />
+        <div className="BlueBlob1Component">
+          <BlueBlob1 />
+        </div>
         
-        {/*esta pendiente todo lo relacionado con las manchas, ese componente Blueblob1 deberia contener al menos una pero esta vacio por ahora*/}
+        {/*esta pendiente todo lo relacionado con las manchas, ese componente Blueblob1 deberia contener al menos una pero
+         esta vacio por ahora*/}
 
       </div>
 

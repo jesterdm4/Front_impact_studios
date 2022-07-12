@@ -6,7 +6,7 @@ const BlueBlob1 = () => {
     return (
       <>
         <div className='BlueBlob1'>
-
+          
         </div>
       </>
     );
