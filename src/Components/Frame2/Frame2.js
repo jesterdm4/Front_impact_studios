@@ -40,9 +40,7 @@ const Frame2 = () => {
           <Vector1 />
         </div>
 
-        <div className="BlueBlob1Component">
-          <BlueBlob1 />
-        </div>
+        <BlueBlob1 />
         
         {/*esta pendiente todo lo relacionado con las manchas, ese componente Blueblob1 deberia contener al menos una pero
          esta vacio por ahora*/}

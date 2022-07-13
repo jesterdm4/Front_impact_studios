@@ -1,6 +1,34 @@
 .BlueBlob1{
-    border-radius: 0px;
-    color: white;
-    background: linear-gradient(143.15deg, #6100FF 8.37%, rgba(0, 255, 255, 0) 91.49%);
-    /*filter: blur(200px);*/
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    z-index: 0;          
+    width: 80%;
+    height: 50%;     
+    .BlueBlob1Svg{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+            filter: blur(100px);
+    }
 }
+
+.BlueBlob2{
+    position: absolute;
+    left: 20%;
+    bottom: 0;
+    z-index: 0;          
+    width: 100%;
+    height: 80%;     
+    .BlueBlob2Svg{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+            filter: blur(100px);
+    }
+}
+
