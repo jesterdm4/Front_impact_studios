@@ -9,4 +9,6 @@ import BlueBlob1 from "./BlueBlob1/BlueBlob1";
 import Frame3 from "./Frame3/Frame3"
 import TextBox2 from "./TextBox2/TextBox2";
 
-export { Button, Text, Header, Frame2, TextBox, TextFrame, Vector1, BlueBlob1, Frame3, TextBox2 };
+import Frame4 from "./Frame4/Frame4"; 
+
+export { Button, Text, Header, Frame2, TextBox, TextFrame, Vector1, BlueBlob1, Frame3, TextBox2, Frame4 };
