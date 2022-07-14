@@ -41,9 +41,7 @@ const Frame2 = () => {
         </div>
 
         <BlueBlob1 />
-        
-        {/*esta pendiente todo lo relacionado con las manchas, ese componente Blueblob1 deberia contener al menos una pero
-         esta vacio por ahora*/}
+        {/*al final decidi meter todas las manchas, tanto azules como rojas en el mismo componente*/}       
 
       </div>
 

@@ -4,7 +4,7 @@
     bottom: 0;
     z-index: 0;          
     width: 80%;
-    height: 50%;     
+    height: 40%;     
     .BlueBlob1Svg{
         position: absolute;
         bottom: 0;
@@ -17,11 +17,11 @@
 
 .BlueBlob2{
     position: absolute;
-    left: 20%;
+    right: 0;
     bottom: 0;
     z-index: 0;          
-    width: 100%;
-    height: 80%;     
+    width: 65%;
+    height: 70%;     
     .BlueBlob2Svg{
         position: absolute;
         bottom: 0;
@@ -34,12 +34,12 @@
 
 .RedBlob1{
     position: absolute;
-    left: 33%;
+    right: 0;
     bottom: 0;
     top: 25%;
     z-index: 0;          
-    width: 100%;
-    height: 100%;     
+    width: 50%;
+    height: 70%;     
     .RedBlob1Svg{
         position: absolute;
         bottom: 0;
@@ -52,12 +52,12 @@
 
 .RedBlob2{
     position: absolute;
-    left: 34%;
+    right: 0;
     bottom: 0;
     top: -30%;
     z-index: 0;          
-    width: 100%;
-    height: 100%;     
+    width: 45%;
+    height: 90%;     
     .RedBlob2Svg{
         position: absolute;
         bottom: 0;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.scss";
-import { Frame2, Header } from "../../Components";
+import { Frame2, Header, Frame3 } from "../../Components";
 
 
 const Home = (props) => {
@@ -11,6 +11,10 @@ const Home = (props) => {
 
         <Frame2 />
 
+      </div>
+
+      <div className="Frame3">
+        <Frame3 />
       </div>
       
     </>
