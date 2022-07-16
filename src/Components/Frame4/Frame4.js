@@ -1,4 +1,5 @@
 import React from 'react'
+import ServiceCard from '../ServiceCard/ServiceCard'
 import "./Frame4.scss"
 
 const Frame4 = () => {
@@ -6,12 +7,41 @@ const Frame4 = () => {
     <div className='total-Frame4-container'>
     
         <div className='grid-layout'>
-          <div className='box 1'>1</div>
-          <div className='box 2'>2</div>
-          <div className='box 3'>3</div>
-          <div className='box 4'>4</div>
-          <div className='box 5'>5</div>
-          <div className='box 6'>6</div>
+
+          <div className='box 1'>
+            BlueBox2 pendiente
+          </div>
+        
+          <div className='box c2'>
+            <ServiceCard 
+              image='0'
+            />
+          </div>
+        
+          <div className='box c3'>
+            <ServiceCard
+              image='1'
+            /> 
+          </div>
+        
+          <div className='box c4'>
+            <ServiceCard 
+              image='2'
+            /> 
+          </div>
+        
+          <div className='box c5'>
+            <ServiceCard 
+              image='3'
+            /> 
+          </div>
+        
+          <div className='box c6'>
+            <ServiceCard 
+              image='4'
+            /> 
+          </div>
+        
         </div>
 
     </div>
