@@ -1,0 +1,39 @@
+.Frame4Blobs-Container{
+    position: absolute;
+    height: 70vw;
+    width: 80%;
+    /*filter: blur(30px);*/
+    z-index: 0;
+    
+
+    .Frame4BlueBlob1{
+        position: absolute;
+        width: 50vw;
+        height: 50vw;
+        
+    }
+
+    .Frame4BlueBlob2{
+        position: absolute;
+        width: 50vw;
+        height: 50vw;
+        top: 5vw;
+        right: 17vw;
+    }
+
+    .Frame4RedBlob1{
+        position: absolute;
+        width: 50vw;
+        height: 50vw;
+        bottom: -3vw;
+        left: 13vw;
+    }
+
+    .Frame4RedBlob2{
+        position: absolute;
+        width: 50vw;
+        height: 50vw;
+        left: 25vw;
+    }
+    
+}

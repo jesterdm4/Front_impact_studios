@@ -1,12 +1,17 @@
 import React from 'react'
 import BlueBox2 from '../BlueBox2/BlueBox2'
+import Frame4Blobs from '../Frame4Blobs/Frame4Blobs'
 import ServiceCard from '../ServiceCard/ServiceCard'
 import "./Frame4.scss"
 
 const Frame4 = () => {
   return (
     <div className='total-Frame4-container'>
-    
+
+          <div className='Frame4Blobs'>
+            <Frame4Blobs />
+          </div>
+
         <div className='grid-layout'>
 
           <div className='box c1'>
@@ -42,7 +47,7 @@ const Frame4 = () => {
               image='4'
             /> 
           </div>
-        
+
         </div>
 
     </div>
