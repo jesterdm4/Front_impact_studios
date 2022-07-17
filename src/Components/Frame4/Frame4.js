@@ -1,4 +1,5 @@
 import React from 'react'
+import BlueBox2 from '../BlueBox2/BlueBox2'
 import ServiceCard from '../ServiceCard/ServiceCard'
 import "./Frame4.scss"
 
@@ -8,8 +9,8 @@ const Frame4 = () => {
     
         <div className='grid-layout'>
 
-          <div className='box 1'>
-            BlueBox2 pendiente
+          <div className='box c1'>
+            <BlueBox2 />
           </div>
         
           <div className='box c2'>

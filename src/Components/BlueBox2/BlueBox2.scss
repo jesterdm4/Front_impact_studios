@@ -1,93 +1,89 @@
-.BlueBox1{   
-    position: relative;    
-    /*box-sizing: content-box;*/
-    width: 40%;
-    height: fit-content;
-    top: 60px;    
-    background: black;
-    color: white;
-    border: 5px solid #18A0FB;
+.BlueBox2-Container{
+    position: relative;
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-flow: column;
-    z-index: 1;
- 
-    .TextoBlanco{
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items:center;
+
+    .corner1and2{
         position: relative;
+        right: 1.3vw;
+
+        .corner1{
+            position: relative;
+            bottom: 11.3vw;
+            box-sizing: border-box;
+            background: #FFFFFF;
+            border: .25vw solid #18A0FB;
+            width:  calc(.15rem + 2vw);
+            height: calc(.15rem + 2vw);
+        }
+
+        .corner2{
+            position: relative;
+            bottom: -11.3vw;
+            box-sizing: border-box;
+            background: #FFFFFF;
+            border: .25vw solid #18A0FB;
+            width:  calc(.15rem + 2vw);
+            height: calc(.15rem + 2vw);
+        }
+    }
+
+    .BlueBox2-Content{
+        position: relative;
+        /*display: grid;*/
         
-        width: 60%;
+        width: fit-content;
         height: fit-content;
-        font-family: IBM Plex Mono;
-        font-size: calc(.7rem + .9vw);
-        text-align: justify;
-        z-index: 1;
+
+        .BlueText1{
+            position: relative;
+            width: 15vw;
+            height: 6vw;
+            right: .5vw;
+        }
+
+        .LoremText{
+            position: relative;
+            width: 20vw;
+            height: 10vw;
+            right: .5vw;
+        }
+
+        .RedArrow{
+            position: relative;
+            width: 5vw;
+            height: 5vw;
+            left: 7vw;
+            bottom: .1rem;
+        }
     }
 
-}
+    .corner3and4{
+        position: relative;
+        right: -1.3vw;
 
-.BlueBox2y3{
-    position: relative;
-    left: -0.85rem;
-    display: flex;
-    justify-content: space-between;
-    margin-top: -13px;
-    z-index: 1;
+        .corner3{
+            position: relative;
+            bottom: 11.3vw;
+            box-sizing: border-box;
+            background: #FFFFFF;
+            border: .25vw solid #18A0FB;
+            width:  calc(.15rem + 2vw);
+            height: calc(.15rem + 2vw);
+        }
 
-    .BlueBox2{
-        position: inherit;
-        height: 24px;
-        width: 24px;
-        background: white;
-        border: 4px solid #18A0FB;
-        color: black;
-        z-index: 1;
+        .corner4{
+            position: relative;
+            bottom: -11.3vw;
+            box-sizing: border-box;
+            background: #FFFFFF;
+            border: .25vw solid #18A0FB;
+            width:  calc(.15rem + 2vw);
+            height: calc(.15rem + 2vw);           
+        }
     }
-
-    .BlueBox3{
-        position: inherit;
-        left: 1.8rem;
-        height: 24px;
-        width: 24px;
-        background: white;
-        border: 4px solid #18A0FB;
-        color: black;
-        z-index: 1;
-    }
-    
-}
-
-.BlueBox4y5{
-    position: relative;
-    left: -0.85rem;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom:-15px;
-    z-index: 1;
-
-    .BlueBox4{
-        position: inherit;
-        height: 24px;
-        width: 24px;
-        background: white;
-        border: 4px solid #18A0FB;
-        color: black;
-        z-index: 1;
-    }
-    
-    .ArrowComponent{
-        position: absolute;
-        left: 36.5vw;
-        z-index: 1;
-    }
-
-    .BlueBox5{
-        position: inherit;
-        left: 1.8rem;
-        height: 24px;
-        width: 24px;
-        background: white;
-        border: 4px solid #18A0FB;
-        color: black;
-        z-index: 1;
-    }
-
 }

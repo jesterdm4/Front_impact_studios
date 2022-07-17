@@ -18,10 +18,14 @@
         background-color: white;
         width: 25vw;
         height: 25vw;
-        line-height: 23vw; /*para alinear el texto arriba y abajo*/
-        text-align: center; /*para alinear el texto a los lados*/
-        border: 1vw solid blue;
+        border: 1vw solid #18A0FB;
         margin: 3vw; /*padding externo*/
-    }
-}
 
+    }
+
+    .c1{
+        position: relative;
+        border: .3vw solid #18A0FB;
+    }
+
+}

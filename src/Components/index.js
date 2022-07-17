@@ -12,6 +12,6 @@ import TextBox2 from "./TextBox2/TextBox2";
 
 import Frame4 from "./Frame4/Frame4";
 import ServiceCard from "./ServiceCard/ServiceCard"
-import BlueBox2 from "./BlueBox2/BlueBox2";
 
-export { Button, Text, Header, Frame2, TextBox, TextFrame, Vector1, BlueBlob1, Frame3, TextBox2, Frame4, ServiceCard, BlueBox2 };
+
+export { Button, Text, Header, Frame2, TextBox, TextFrame, Vector1, BlueBlob1, Frame3, TextBox2, Frame4, ServiceCard };

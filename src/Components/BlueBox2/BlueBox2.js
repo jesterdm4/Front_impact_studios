@@ -1,34 +1,35 @@
 import React from 'react'
-import "./BlueBox2.scss";
+import "./BlueBox2.scss"
+import BlueText1 from "../../Assets/BlueText1.svg"
+import LoremText from "../../Assets/LoremText.svg"
+import RedArrow from "../../Assets/RedArrow.svg"
 
-
-const BlueBox2 = (props) => {
-  
-    return (
-      <>
-        <div className='BlueBox1'>
-
-
-          <div className='BlueBox2y3'>
-            <div className='BlueBox2'></div>
-            <div className='BlueBox3'></div>
-          </div>
-
-            {/*hacer de un tamaño determinado el ancho de el componente para que sea del mismo tamaño que los otros en la cuadrilla
-            parece ser un problema de grid, ver el tuto que te paso J.O.S.E */}
-            <div className='TextoBlanco'>
-              <p>{props.text}</p>
-            </div>
-
-          <div className='BlueBox4y5'>
-            <div className='BlueBox4'></div>
-            <div className='BlueBox5'></div>
-          </div>
-
+const BlueBox2 = () => {
+  return (
+    <div className='BlueBox2-Container'>
+        <div className='corner1and2'>
+            <div className='corner1'></div>
+            <div className='corner2'></div>
         </div>
-      </>
-    );
-  };
-  
-  export default BlueBox2;
-  
+
+        <div className='BlueBox2-Content'>
+            <div className='BlueText1'>
+                <img src={ BlueText1 } className='BlueText1' />
+            </div>
+            <div className='LoremText'>
+                <img src={ LoremText } className='LoremText' />
+            </div>
+            <div className='RedArrow'>
+                <img src={ RedArrow } className='RedArrow' />
+            </div>
+        </div>
+
+        <div className='corner3and4'>
+            <div className='corner3'></div>
+            <div className='corner4'></div>
+        </div>
+    </div>
+  )
+}
+
+export default BlueBox2
