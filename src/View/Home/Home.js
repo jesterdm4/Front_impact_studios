@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.scss";
-import { Frame2, Header, Frame3, Frame4 } from "../../Components";
+import { Header, Frame2, Frame3, Frame4, Frame5 } from "../../Components";
 
 
 const Home = (props) => {
@@ -20,6 +20,11 @@ const Home = (props) => {
 
       <div className="Frame4">
         <Frame4 />
+
+      </div>
+
+      <div className="Frame5">
+      <Frame5 />
 
       </div>
       

@@ -1,0 +1,72 @@
+.BlueBox3-Container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: .3vw solid #18A0FB;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items:center;
+    background-color: none;
+    z-index: 1;
+
+    .corner1and2{
+        position: relative;
+        right: 1.3vw;
+
+        .corner1{
+            position: relative;
+            bottom: 11.3vw;
+            box-sizing: border-box;
+            background: #FFFFFF;
+            border: .25vw solid #18A0FB;
+            width:  calc(.15rem + 2vw);
+            height: calc(.15rem + 2vw);
+        }
+
+        .corner2{
+            position: relative;
+            bottom: -11.3vw;
+            box-sizing: border-box;
+            background: #FFFFFF;
+            border: .25vw solid #18A0FB;
+            width:  calc(.15rem + 2vw);
+            height: calc(.15rem + 2vw);
+        }
+    }
+
+    .BlueBox3-Content{
+        position: relative;
+        /*display: grid;
+        
+        width: fit-content;
+        height: fit-content;*/
+        
+
+    }
+
+    .corner3and4{
+        position: relative;
+        right: -1.3vw;
+
+        .corner3{
+            position: relative;
+            bottom: 11.3vw;
+            box-sizing: border-box;
+            background: #FFFFFF;
+            border: .25vw solid #18A0FB;
+            width:  calc(.15rem + 2vw);
+            height: calc(.15rem + 2vw);
+        }
+
+        .corner4{
+            position: relative;
+            bottom: -11.3vw;
+            box-sizing: border-box;
+            background: #FFFFFF;
+            border: .25vw solid #18A0FB;
+            width:  calc(.15rem + 2vw);
+            height: calc(.15rem + 2vw);           
+        }
+    }
+}
