@@ -1,0 +1,46 @@
+.Rectangles-Container{
+    
+    .Rectangle1{
+        position: absolute;
+        width: 50%;
+        height: 50%;
+    }
+
+    .Rectangle2{
+        position: absolute;
+        top: 28.2vw;
+        width: 50%;
+        height: 50%;
+    }
+
+    .Rectangle3{
+        position: absolute;
+        right: 0;
+        width: 50%;
+        height: 50%;
+    }
+
+    .Rectangle4{
+        position: absolute;
+        right: 0;
+        top: 20vw;
+        width: 40%;
+        height: 40%;
+    }
+
+    .Rectangle5{
+        position: absolute;
+        bottom: 0;
+        right: 12vw;
+        width: 50%;
+        height: 50%;
+    }
+
+    .Rectangle6{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 20%;
+        height: 20%;
+    }
+}

@@ -1,43 +1,86 @@
 .Total-Frame5-Container{
     position: relative;
-    background-color: #C4C4C4 ;
-    /*padding: 10vw 10vw 10vw 20vw;*/
+    background-color: #fff;
+
 }
 
 .grid-layout2{
     position: relative;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 50% 50%;
+    padding: 12vw 10vw 20vw 10vw;
     z-index: 1;
 
-    .Frame5-text{
+    .BlueBox3-Component-Container{
         position: relative;
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .Frame5-textAndArrow{
+        position: relative;
+        right: 2vw;
+        display: flex;
+        flex-flow: row nowrap;
         
-        .Frame5-text1{
-            position: relative;
-
-            font-family: IBM Plex Mono;
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 30px;
-            letter-spacing: 0em;
-            text-align: left;
-
-            color: #FB6376;
-
+        .RedArrow2{
+            img{
+                width: 50%;
+                height: 50%;
+            }
         }
 
-        .Frame5-text2{
+        .Frame5-Text{
             position: relative;
+            right: 3vw;
+
+            .Frame5-text1{
+                position: relative;
+                font-family: 'IBM Plex Mono';
+                font-size: 1.3vw;
+                font-weight: 700;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #FB6376;
+    
+            }
+    
+            .Frame5-text2{
+                position: relative;
+
+                font-family: 'IBM Plex Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 2vw;
+                line-height: 150%;
+                color: #24252E;
+            }
+    
+            .Frame5-text3{
+                position: relative;
+
+                font-family: 'IBM Plex Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 2vw;
+                line-height: 150%;
+                color: rgba(109, 109, 109, 0.5);
+            }
+    
+            .Frame5-text4{
+                position: relative;
+
+                font-family: 'IBM Plex Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 2vw;
+                line-height: 150%;
+                color: rgba(225, 222, 222, 0.5);
+            }
         }
 
-        .Frame5-text3{
-            position: relative;
-        }
 
-        .Frame5-text4{
-            position: relative;
-        }
 
     }
 }

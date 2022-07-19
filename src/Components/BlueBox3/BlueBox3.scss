@@ -1,7 +1,7 @@
 .BlueBox3-Container{
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 140%;
+    height: 140%;
     border: .3vw solid #18A0FB;
     display: flex;
     flex-flow: row nowrap;
@@ -12,61 +12,64 @@
 
     .corner1and2{
         position: relative;
-        right: 1.3vw;
+        right: .9vw;
 
         .corner1{
             position: relative;
-            bottom: 11.3vw;
+            bottom: 16.6vw;
             box-sizing: border-box;
             background: #FFFFFF;
-            border: .25vw solid #18A0FB;
-            width:  calc(.15rem + 2vw);
-            height: calc(.15rem + 2vw);
+            border: .30vw solid #18A0FB;
+            width:  calc(.15rem + 1.3vw);
+            height: calc(.15rem + 1.3vw);
         }
 
         .corner2{
             position: relative;
-            bottom: -11.3vw;
+            bottom: -16.6vw;
             box-sizing: border-box;
             background: #FFFFFF;
-            border: .25vw solid #18A0FB;
-            width:  calc(.15rem + 2vw);
-            height: calc(.15rem + 2vw);
+            border: .30vw solid #18A0FB;
+            width:  calc(.15rem + 1.3vw);
+            height: calc(.15rem + 1.3vw);
         }
     }
 
     .BlueBox3-Content{
         position: relative;
-        /*display: grid;
+        display:flex;
+        align-items: center;
+        justify-content:center;
         
-        width: fit-content;
-        height: fit-content;*/
-        
+        img{
+            width: 90%;
+            height: 90%;
+        }
 
     }
 
     .corner3and4{
         position: relative;
-        right: -1.3vw;
+        right: -.9vw;
 
         .corner3{
             position: relative;
-            bottom: 11.3vw;
+            bottom: 16.6vw;
             box-sizing: border-box;
             background: #FFFFFF;
-            border: .25vw solid #18A0FB;
-            width:  calc(.15rem + 2vw);
-            height: calc(.15rem + 2vw);
+            border: .30vw solid #18A0FB;
+            width:  calc(.15rem + 1.3vw);
+            height: calc(.15rem + 1.3vw);
         }
 
         .corner4{
             position: relative;
-            bottom: -11.3vw;
+            bottom: -16.6vw;
             box-sizing: border-box;
             background: #FFFFFF;
-            border: .25vw solid #18A0FB;
-            width:  calc(.15rem + 2vw);
-            height: calc(.15rem + 2vw);           
+            border: .30vw solid #18A0FB;
+            width:  calc(.15rem + 1.3vw);
+            height: calc(.15rem + 1.3vw);           
         }
     }
 }
