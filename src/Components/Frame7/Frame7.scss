@@ -1,0 +1,48 @@
+.Frame7-Total-Container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding: 7vw;
+
+    .UserData-Container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+
+        .Name-Container{
+            position: relative;
+        }
+
+        .PhoneAndEmail-Container{
+            position: relative;
+
+            .Phone-Container{
+                position: relative;
+            }
+
+            .Email-Container{
+                position: relative;
+            }
+        }
+
+        .Message-Container{
+            position: relative;
+        }
+    }
+
+    .AdjuntarAndSend-Container{
+        position: relative;
+
+        .Adjuntar-Container{
+            position: relative;
+        }
+
+        .Send-Container{
+            position: relative;
+        }
+    }
+}
