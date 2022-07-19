@@ -1,0 +1,48 @@
+.Total-Frame6Arrows-Container{
+    position: inherit;
+    left: 7vw;
+    display: flex;
+    align-items: center;
+    width: 5vw;
+    height: 5vw;
+    
+    
+    .Frame6Arrows{
+        position: absolute;
+        width: 20vw;
+        height: 20vw;
+    
+        .Frame6Arrow1{
+            position: absolute;
+            bottom: 10vw;
+        }
+        
+        .Frame6Arrow2{
+            position: absolute;
+            top: -3.9vw;
+        }
+
+        .Frame6Arrow3{
+            position: absolute;
+            top: -7.5vw;
+            transform: rotate(10deg);
+        }
+
+        .Frame6Arrow4{
+            position: absolute;
+            top: -10.7vw;
+            transform: rotate(-5deg);
+        }
+
+        .Frame6Circle{
+            position: absolute;
+            left: -1.8vw;
+            width: 2vw;
+            height: 2vw;
+        }
+
+    }
+
+
+}
+

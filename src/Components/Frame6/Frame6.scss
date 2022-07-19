@@ -1,0 +1,48 @@
+.Total-Frame6-Container{
+    position: relative;
+    background-color: #E5E5E5;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 10vw 0vw 10vw 7vw;
+
+    .Frame6-TextBox-Container{
+        position: relative;
+
+    }
+
+    .Frame6Arrows-Container{
+        position: relative;
+        width: 5vw;
+        top: 5vw;
+        z-index: 2;
+
+    }
+
+    .Frame6-Metodologias{
+        position: relative;
+
+        h6{
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: calc(.4rem + 1vw);
+            line-height: 150%;        
+            color: #24252E;
+        }
+    }
+
+    .Frame6-Text{
+        position: absolute;
+        top: 20vw;
+        left: 15vw;
+        width: 40%;
+
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.5vw;
+        line-height: 150%;
+        color: #24252E;
+
+    }
+}
