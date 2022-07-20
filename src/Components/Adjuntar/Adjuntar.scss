@@ -1,0 +1,31 @@
+.ClipAndAdjuntar{
+    position: relative;
+    width: 70vw;
+    padding: 7vw 0vw 2vw 0vw;
+    display: flex;
+    flex-flow: row nowrap;
+
+
+    img{
+        position: relative;
+        width: 1.1vw;
+        bottom: .2vw;
+        
+    }
+
+    .TrueAdjuntar{
+        position: relative;
+        padding: 0vw 0vw 0vw .5vw;
+        font-family: 'VT323';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.19vw;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #546FFD;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+}

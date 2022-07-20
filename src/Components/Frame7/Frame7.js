@@ -1,4 +1,6 @@
 import React from 'react'
+import Adjuntar from '../Adjuntar/Adjuntar';
+import Send from '../Send/Send';
 import TextBox2 from '../TextBox2/TextBox2';
 import UserData from '../UserData/UserData';
 import UserData2 from '../UserData2/UserData2';
@@ -26,9 +28,11 @@ const Frame7 = () => {
       </div>
 
       <div className='AdjuntarAndSend-Container'>
-        <div className='Adjuntar-Container'></div>
-        <div className='Send-Container'></div>
+        <div className='Adjuntar-Container'> <Adjuntar /> </div>
+        <div className='Send-Container'> <Send /> </div>
       </div>
+
+      
 
     </div>
   )

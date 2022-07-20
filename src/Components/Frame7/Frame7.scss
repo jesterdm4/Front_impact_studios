@@ -13,6 +13,7 @@
         justify-content: center;
         align-items: center;
         flex-flow: column nowrap;
+        z-index: 1;
 
         .Name-Container{
             position: relative;
@@ -43,6 +44,11 @@
 
     .AdjuntarAndSend-Container{
         position: relative;
+        width: 70vw;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        z-index: 1;
 
         .Adjuntar-Container{
             position: relative;
@@ -50,6 +56,8 @@
 
         .Send-Container{
             position: relative;
+            top: 4.5vw;
+            right: 9vw;
         }
     }
 }
