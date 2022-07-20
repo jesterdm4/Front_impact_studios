@@ -1,5 +1,6 @@
 import React from 'react'
 import Adjuntar from '../Adjuntar/Adjuntar';
+import Blobers from '../Blobers/Blobers';
 import Send from '../Send/Send';
 import TextBox2 from '../TextBox2/TextBox2';
 import UserData from '../UserData/UserData';
@@ -32,7 +33,7 @@ const Frame7 = () => {
         <div className='Send-Container'> <Send /> </div>
       </div>
 
-      
+      <Blobers />
 
     </div>
   )
