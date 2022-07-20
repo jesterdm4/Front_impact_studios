@@ -1,5 +1,7 @@
 import React from 'react'
 import TextBox2 from '../TextBox2/TextBox2';
+import UserData from '../UserData/UserData';
+import UserData2 from '../UserData2/UserData2';
 
 import "./Frame7.scss";
 
@@ -18,9 +20,9 @@ const Frame7 = () => {
       </div>
 
       <div className='UserData-Container'>
-        <div className='Name-Container'></div>
-        <div className='PhoneAndEmail-Container'> <div className='Phone-Container'></div> <div className='Email-Container'></div> </div>
-        <div className='Message-Container'></div>
+        <div className='Name-Container'> <UserData Dato={"TU NOMBRE. . ."} /> </div>
+        <div className='PhoneAndEmail-Container'> <div className='Phone-Container'> <UserData2 Dato={"TELÉFONO"}/> </div> <div className='Email-Container'> <UserData2 Dato={"EMAIL"}/> </div> </div>
+        <div className='Message-Container'> <UserData Dato={"MENSAJE (OPCIONAL)"} /> </div>
       </div>
 
       <div className='AdjuntarAndSend-Container'>

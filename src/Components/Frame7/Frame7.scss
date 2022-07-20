@@ -8,6 +8,7 @@
 
     .UserData-Container{
         position: relative;
+        padding: 8vw 0vw 0vw 0vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -19,9 +20,15 @@
 
         .PhoneAndEmail-Container{
             position: relative;
+            width: 70vw;
+            padding: 2vw 0vw 2vw 0vw;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
 
             .Phone-Container{
                 position: relative;
+
             }
 
             .Email-Container{

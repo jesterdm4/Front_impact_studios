@@ -1,0 +1,19 @@
+.UserDataSmall{
+    position: relative;  
+    width: fit-content;
+    height: max-content;   
+    box-shadow: 1vw 1vw 0px #000000;
+
+    input{
+        position: relative;  
+        width: 30vw;
+        height: fit-content;
+        box-sizing: border-box;
+        background-color: #FFF;
+        font-family: 'VT323';
+        font-size: calc(.7rem + .4vw);
+        padding: 1vw 1.1vw 1.1vw 1.1vw;    
+        text-align: start;
+        border: .1vw solid #000000;
+    }
+}
