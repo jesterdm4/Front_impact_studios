@@ -21,18 +21,17 @@ const Frame6 = () => {
         </div>
 
         <div className='Frame6-GridBox2'>
-            <div className='Frame6Arrows-Container'>
-                <Frame6Arrows />            
+            <div className='Frame6-MetodologiasAndArrow'>
+                <div className='Frame6Arrows-Container'>
+                    <Frame6Arrows />            
                     
-            </div>
-        </div>
-
-        <div className='Frame6-GridBox3'>
-            <div className='Frame6-Metodologias'>
-                <h6 className='Agile'>ÁGILE</h6>
-                <h6 className='Scrum'>SCRUM</h6>
-                <h6 className='Scrumban'>SCRUMBAN</h6>
-                <h6 className='Design-thinking'>DESIGN THINKING</h6>
+                </div>
+{/*                 <div className='Frame6-Metodologias'>
+                    <h6 className='Agile'>ÁGILE</h6>
+                    <h6 className='Scrum'>SCRUM</h6>
+                    <h6 className='Scrumban'>SCRUMBAN</h6>
+                    <h6 className='Design-thinking'>DESIGN THINKING</h6>
+                </div> */}
             </div>
         </div>
 
@@ -43,7 +42,7 @@ const Frame6 = () => {
                     trabajo y la satisfacción del usuario</p>
             </div>  
 
-{/* ESTE FRAME NO SE LOGRO */}
+{/* ESTE FRAME NO SE HA LOGRADO, HASTA AHORA */}
 
     </div>
   )

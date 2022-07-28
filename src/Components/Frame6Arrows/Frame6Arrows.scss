@@ -1,6 +1,6 @@
 .Total-Frame6Arrows-Container{
-    position: inherit;
-    left: 7vw;
+    position: relative;
+    top: 10vw;
     display: flex;
     align-items: center;
     width: 5vw;
@@ -16,22 +16,25 @@
             position: absolute;
             bottom: 10vw;
         }
+
+        .Metodologia1{
+            position: absolute;
+        }
         
         .Frame6Arrow2{
             position: absolute;
-            top: -3.9vw;
+            top: -4vw;
         }
 
         .Frame6Arrow3{
             position: absolute;
-            top: -7.5vw;
-            transform: rotate(10deg);
+            top: -10vw;
+            
         }
 
         .Frame6Arrow4{
             position: absolute;
-            top: -10.7vw;
-            transform: rotate(-5deg);
+            top: -7vw;
         }
 
         .Frame6Circle{

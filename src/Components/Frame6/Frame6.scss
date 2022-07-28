@@ -1,8 +1,9 @@
 .Total-Frame6-Container{
     position: relative;
+    height: 40vw;
     background-color: #E5E5E5;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 40% 60%;
     padding: 10vw 0vw 10vw 7vw;
 
     .Frame6-TextBox-Container{
@@ -10,26 +11,8 @@
 
     }
 
-    .Frame6Arrows-Container{
-        position: relative;
-        width: 5vw;
-        top: 5vw;
-        z-index: 2;
-
-    }
-
-    .Frame6-Metodologias{
-        position: relative;
-
-        h6{
-            font-family: 'IBM Plex Mono';
-            font-style: normal;
-            font-weight: 700;
-            font-size: calc(.4rem + 1vw);
-            line-height: 150%;        
-            color: #24252E;
-        }
-    }
+/*aqui lo de las flechas y las metodologias*/
+    
 
     .Frame6-Text{
         position: absolute;
